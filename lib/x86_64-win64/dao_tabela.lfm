@@ -1,0 +1,18 @@
+object DaoTabela: TDaoTabela
+  OnCreate = DataModuleCreate
+  OnDestroy = DataModuleDestroy
+  OldCreateOrder = False
+  Height = 150
+  HorizontalOffset = 384
+  VerticalOffset = 262
+  Width = 463
+  object QryTabela: TZQuery
+    Connection = ModelConexao.Conexao
+    SQL.Strings = (
+      'SELECT * FROM TBL0001 TBL'
+    )
+    Params = <>
+    Left = 93
+    Top = 19
+  end
+end

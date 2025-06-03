@@ -1,0 +1,14 @@
+object DaoDominio: TDaoDominio
+  OnCreate = DataModuleCreate
+  OnDestroy = DataModuleDestroy
+  OldCreateOrder = False
+  Height = 150
+  HorizontalOffset = -6
+  VerticalOffset = 539
+  Width = 228
+  object QryDominio: TZQuery
+    Params = <>
+    Left = 50
+    Top = 45
+  end
+end

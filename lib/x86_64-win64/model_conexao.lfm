@@ -1,0 +1,25 @@
+object ModelConexao: TModelConexao
+  OldCreateOrder = False
+  Height = 150
+  HorizontalOffset = 475
+  VerticalOffset = 266
+  Width = 381
+  object Conexao: TZConnection
+    ControlsCodePage = cCP_UTF8
+    ClientCodepage = 'WIN1252'
+    Properties.Strings = (
+      'codepage=WIN1252'
+      'RawStringEncoding=DB_CP'
+    )
+    DisableSavepoints = False
+    HostName = '127.0.0.1'
+    Port = 0
+    Database = 'duosig_case'
+    User = 'SYSDBA'
+    Password = 'masterkey'
+    Protocol = 'firebird'
+    LibraryLocation = 'C:\DuosigERP\Bin\fbclient.dll'
+    Left = 88
+    Top = 16
+  end
+end

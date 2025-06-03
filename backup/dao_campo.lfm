@@ -1,0 +1,14 @@
+object DaoCampo: TDaoCampo
+  OnCreate = DataModuleCreate
+  OnDestroy = DataModuleDestroy
+  OldCreateOrder = False
+  Height = 150
+  HorizontalOffset = 248
+  VerticalOffset = 110
+  Width = 654
+  object QryCampo: TZQuery
+    Params = <>
+    Left = 90
+    Top = 28
+  end
+end
